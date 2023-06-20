@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(35, 33, 35);
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset -10px -10px 13px rgb(153, 0, 153)
+    inset 10px 10px 13px rgb(36, 13, 36);
+}
+
+#display {
+    margin-top: 100px;
+    text-align: right;
+     outline: none; 
+    height: 100px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+     border: 1px; 
+    border-bottom: 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(8, 8, 8);
+    box-shadow: inset -13px -13px 10px rgb(237, 235, 237),
+    inset 13px 13px 10px rgb(201, 198, 198);
+   
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 75px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    border: 0;
+    box-shadow: inset -10px -10px 13px rgb(255, 255, 255),
+    inset 10px 10px 13px rgb(26, 26, 26); 
+}
+
+#btn1 {
+    background-color: rgb(153, 0, 153);
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-right: 1px solid white;
+    border-left: 2px solid white;
+}
+
+#btn2 {
+    background-color: rgb(215, 215, 215);
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    border-right: 1px solid white;
+    border-top: 0;
+}
+
+#btn3 {
+    background-color: rgb(150, 33, 173);
+    border-bottom-left-radius: 17px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    box-shadow: inset -10px -10px 13px rgb(153, 0, 153),
+    inset 10px 10px 13px rgb(81, 3, 81); 
+}
+
+.btn:hover {
+    background-color: rgb(153, 0, 153);
+    border: 2px solid white;
+    color: white;
+      box-shadow: inset -10px -10px 13px rgb(153, 0, 153),
+    inset 10px 10px 13px rgb(81, 3, 81); 
+}
+
+#btn2:hover {
+    background-color: rgb(153, 0, 153);
+    border: 2px solid white;
+    color: rgb(0, 0, 0);
+}
+
+#btnarrow:hover {
+    background-color: rgb(153, 0, 153);
+    color: black;
+}
+#btn7{
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+
+#btn7>a {
+        color: black;
+        text-transform: none;
+        text-decoration: none;
+}
+#btn7:hover{
+    background-color: rgb(153, 0, 153) ;
+    box-shadow: none;
+}
+
